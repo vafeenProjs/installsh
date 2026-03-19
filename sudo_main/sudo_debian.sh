@@ -1,14 +1,12 @@
 #!/bin/bash
 
-# Update the system
 sudo apt update
-sudo apt upgrade -y
 
 # Install necessary packages
 sudo apt install -y snapd 
 sudo apt install -y git 
 # sudo apt install -y g++ 
-sudo apt install -y virtualbox 
+# sudo apt install -y virtualbox
 
 # All for GNOME 
 # sudo apt install -y flameshot 
@@ -20,7 +18,7 @@ sudo apt install -y virtualbox
 # Install plugin for Flatpak support in Gnome Software
 # sudo apt install gnome-software-plugin-flatpak -y
 
-sudo apt install p7zip-full
+# sudo apt install p7zip-full
 
 # Install Flatpak
 sudo apt install -y flatpak
@@ -31,7 +29,6 @@ sudo snap install code --classic
 
 sudo apt install qdirstat
 
-sudo apt update
 sudo apt install openjdk-17-jdk
 
 
